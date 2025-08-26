@@ -1,0 +1,1163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fedigma-Forge - Innovating Education, Empowering Growth</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header with Tabs and Social Media -->
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav__brand">
+                <h2>Fedigma Forge </h2>
+            </div>
+            <ul class="nav__menu">
+                <li><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__dropdown">
+                    <a href="#services" class="nav__link">Services <span class="dropdown-arrow">▼</span></a>
+                    <div class="dropdown-menu">
+                        <a href="#services" class="dropdown-item">Web Development</a>
+                        <a href="#services" class="dropdown-item">App Development</a>
+                        <a href="#services" class="dropdown-item">Online Presence Management</a>
+                        <a href="#services" class="dropdown-item">Digital Marketing</a>
+                        <a href="#services" class="dropdown-item">School Management System</a>
+                    </div>
+                </li>
+                <li><a href="#blogs" class="nav__link">Blogs</a></li>
+                <li><a href="#about" class="nav__link">About</a></li>
+                <li><a href="#contact" class="nav__link">Contact</a></li>
+            </ul>
+            <div class="social-header">
+    <!-- Facebook -->
+    <a href="https://facebook.com/fedigmaforge" target="_blank" class="social-link facebook" title="Facebook">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+        </svg>
+    </a>
+    
+    <!-- Twitter -->
+    <a href="https://twitter.com/fedigmaforge" target="_blank" class="social-link twitter" title="Twitter">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
+        </svg>
+    </a>
+    
+    <!-- LinkedIn -->
+    <a href="https://linkedin.com/company/fedigma-forge-info" target="_blank" class="social-link linkedin" title="LinkedIn">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+        </svg>
+    </a>
+    
+    <!-- Instagram -->
+    <a href="https://instagram.com/fedigmaforge" target="_blank" class="social-link instagram" title="Instagram">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+        </svg>
+    </a>
+    
+    <!-- YouTube -->
+    <a href="https://youtube.com/fedigmaforge" target="_blank" class="social-link youtube" title="YouTube">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+        </svg>
+    </a>
+    
+    <!-- WhatsApp -->
+    <a href="https://wa.me/917984504286" target="_blank" class="social-link whatsapp" title="WhatsApp">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.890-5.335 11.893-11.893A11.821 11.821 0 0020.89 3.488"/>
+        </svg>
+    </a>
+</div>
+
+            <button class="nav__toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Hero Section with Enhanced Slider -->
+    <section id="home" class="hero">
+        <div class="hero-slider">
+            <div class="hero-slide active">
+                <div class="container">
+                    <div class="hero__content">
+                        <h1 class="hero__title">Professional Web Development Solutions</h1>
+                        <p class="hero__subtitle">Create powerful, responsive websites that drive business growth and engage your audience</p>
+                        <div class="hero-features">
+                            <span class="feature-tag">Responsive Design</span>
+                            <span class="feature-tag">SEO Optimized</span>
+                            <span class="feature-tag">Fast Loading</span>
+                            <span class="feature-tag">Secure & Reliable</span>
+                        </div>
+                        <button class="btn btn--primary hero-cta">Start Your Website Project</button>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-slide">
+                <div class="container">
+                    <div class="hero__content">
+                        <h1 class="hero__title">Mobile App Development Excellence</h1>
+                        <p class="hero__subtitle">Build native and cross-platform mobile applications that deliver exceptional user experiences</p>
+                        <div class="hero-features">
+                            <span class="feature-tag">Native Performance</span>
+                            <span class="feature-tag">Cross-Platform</span>
+                            <span class="feature-tag">App Store Ready</span>
+                            <span class="feature-tag">Ongoing Support</span>
+                        </div>
+                        <button class="btn btn--primary hero-cta">Develop Your App</button>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-slide">
+                <div class="container">
+                    <div class="hero__content">
+                        <h1 class="hero__title">Complete Online Presence Management</h1>
+                        <p class="hero__subtitle">Build and maintain a strong digital presence across all platforms and channels</p>
+                        <div class="hero-features">
+                            <span class="feature-tag">Social Media Management</span>
+                            <span class="feature-tag">Content Strategy</span>
+                            <span class="feature-tag">Brand Development</span>
+                            <span class="feature-tag">Reputation Management</span>
+                        </div>
+                        <button class="btn btn--primary hero-cta">Enhance Your Presence</button>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-slide">
+                <div class="container">
+                    <div class="hero__content">
+                        <h1 class="hero__title">Strategic Digital Marketing Services</h1>
+                        <p class="hero__subtitle">Grow your business with proven digital marketing strategies and measurable results</p>
+                        <div class="hero-features">
+                            <span class="feature-tag">SEO Optimization</span>
+                            <span class="feature-tag">Google Ads</span>
+                            <span class="feature-tag">Social Media Marketing</span>
+                            <span class="feature-tag">Email Campaigns</span>
+                        </div>
+                        <button class="btn btn--primary hero-cta">Boost Your Marketing</button>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-slide">
+                <div class="container">
+                    <div class="hero__content">
+                        <h1 class="hero__title">Advanced School Management Systems</h1>
+                        <p class="hero__subtitle">Comprehensive digital solutions for educational institutions to streamline operations</p>
+                        <div class="hero-features">
+                            <span class="feature-tag">Student Management</span>
+                            <span class="feature-tag">Fee Collection</span>
+                            <span class="feature-tag">Parent Portal</span>
+                            <span class="feature-tag">Mobile App</span>
+                        </div>
+                        <button class="btn btn--primary hero-cta">Transform Your School</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-controls">
+            <button class="hero-prev">‹</button>
+            <div class="hero-dots">
+                <span class="dot active" data-slide="0"></span>
+                <span class="dot" data-slide="1"></span>
+                <span class="dot" data-slide="2"></span>
+                <span class="dot" data-slide="3"></span>
+                <span class="dot" data-slide="4"></span>
+            </div>
+            <button class="hero-next">›</button>
+        </div>
+    </section>
+
+    <!-- Enhanced Statistics Slider -->
+    <section class="stats-slider">
+        <div class="container">
+            <div class="stats-carousel">
+                <div class="stats-track">
+                    <div class="stat-item">
+                        <div class="stat-icon">📅</div>
+                        <div class="stat-number" data-target="3">0</div>
+                        <div class="stat-suffix">+</div>
+                        <div class="stat-label">Years of Experience</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-icon">✅</div>
+                        <div class="stat-number" data-target="47">0</div>
+                        <div class="stat-suffix">+</div>
+                        <div class="stat-label">Projects Completed</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-icon">😊</div>
+                        <div class="stat-number" data-target="43">0</div>
+                        <div class="stat-suffix">+</div>
+                        <div class="stat-label">Happy Clients</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-icon">🌍</div>
+                        <div class="stat-number" data-target="3">0</div>
+                        <div class="stat-suffix">+</div>
+                        <div class="stat-label">Countries Served</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-icon">🕐</div>
+                        <div class="stat-number">24</div>
+                        <div class="stat-suffix">/7</div>
+                        <div class="stat-label">Support Available</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-icon">⭐</div>
+                        <div class="stat-number" data-target="95">0</div>
+                        <div class="stat-suffix">%</div>
+                        <div class="stat-label">Client Satisfaction</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section with Enhanced Tabs -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Digital Solutions</h2>
+                <p class="section-subtitle">Comprehensive services tailored to your business needs with detailed pricing and features</p>
+            </div>
+            <div class="services-tabs">
+                <div class="tab-buttons">
+                    <button class="tab-btn active" data-tab="web-development">🌐 Web Development</button>
+                    <button class="tab-btn" data-tab="app-development">📱 App Development</button>
+                    <button class="tab-btn" data-tab="online-presence">🌟 Online Presence</button>
+                    <button class="tab-btn" data-tab="digital-marketing">📈 Digital Marketing</button>
+                    <button class="tab-btn" data-tab="school-management">🏫 School Management</button>
+                </div>
+                
+                <div class="tab-content active" id="web-development">
+                    <div class="service-header">
+                        <h3>Web Development Services</h3>
+                        <p>Custom websites and web applications built with cutting-edge technology</p>
+                        <div class="tech-showcase">
+                            <span class="tech-pill">HTML5</span>
+                            <span class="tech-pill">CSS3</span>
+                            <span class="tech-pill">JavaScript</span>
+                            <span class="tech-pill">Laravel</span>
+                            <span class="tech-pill">MySQL</span>
+                        </div>
+                    </div>
+                    <div class="packages-grid">
+                        <div class="package-card">
+                            <h4>Static Website Package</h4>
+                            <div class="price">Rs. 14,999</div>
+                            <div class="timeline">Timeline: 2-3 weeks</div>
+                            <ul>
+                                <li>1 Domain Name</li>
+                                <li>500MB Web Space</li>
+                                <li>10 Business Email Accounts</li>
+                                <li>2 Business Logos</li>
+                                <li>15 Static Pages for Products/Services</li>
+                                <li>Contact Us/Enquiry Page</li>
+                                <li>Social Media Integration</li>
+                                <li>Basic SEO Setup</li>
+                            </ul>
+                            <button class="btn btn--primary" data-service="Static Website Package">Choose Plan</button>
+                        </div>
+                        <div class="package-card featured">
+                            <div class="badge">Popular</div>
+                            <h4>Dynamic Website Package</h4>
+                            <div class="price">Rs. 34,999</div>
+                            <div class="timeline">Timeline: 4-6 weeks</div>
+                            <ul>
+                                <li>1 Domain Name</li>
+                                <li>2GB Web Space</li>
+                                <li>15 Business Email Accounts</li>
+                                <li>5 Business Logos</li>
+                                <li>Unlimited Products/Services Pages</li>
+                                <li>Admin Panel Management</li>
+                                <li>Content Management System</li>
+                                <li>Advanced SEO & Analytics Integration</li>
+                            </ul>
+                            <button class="btn btn--primary" data-service="Dynamic Website Package">Choose Plan</button>
+                        </div>
+                        <div class="package-card">
+                            <h4>E-commerce Package</h4>
+                            <div class="price">Rs. 69,999</div>
+                            <div class="timeline">Timeline: 6-8 weeks</div>
+                            <ul>
+                                <li>1 Domain Name</li>
+                                <li>Unlimited Web Space</li>
+                                <li>Unlimited Business Email Accounts</li>
+                                <li>Payment Gateway Integration</li>
+                                <li>Product Management System</li>
+                                <li>Order Processing</li>
+                                <li>Customer Accounts</li>
+                                <li>Inventory Management & Mobile Responsive</li>
+                            </ul>
+                            <button class="btn btn--primary" data-service="E-commerce Package">Choose Plan</button>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div class="tab-content" id="app-development">
+                    <div class="service-header">
+                        <h3>Mobile App Development</h3>
+                        <p>Native and cross-platform mobile applications for iOS and Android</p>
+                        <div class="tech-showcase">
+                            <span class="tech-pill">Flutter</span>
+                            <span class="tech-pill">React Native</span>
+                            <span class="tech-pill">Swift</span>
+                            <span class="tech-pill">Kotlin</span>
+                            <span class="tech-pill">Firebase</span>
+                        </div>
+                    </div>
+                    <div class="packages-grid">
+                        <div class="package-card">
+                            <h4>Android App Development</h4>
+                            <div class="price">Starting Rs. 25,000</div>
+                            <div class="timeline">Timeline: 3-4 months</div>
+                            <ul>
+                                <li>Native Android Development</li>
+                                <li>Material Design Guidelines</li>
+                                <li>Play Store Submission</li>
+                                <li>Firebase Integration</li>
+                                <li>Push Notifications</li>
+                                <li>Offline Functionality</li>
+                                <li>In-app Purchases</li>
+                                <li>Analytics Integration</li>
+                            </ul>
+                            <button class="btn btn--primary" data-service="Android App Development">Choose Plan</button>
+                        </div>
+                        <div class="package-card">
+                            <h4>iOS App Development</h4>
+                            <div class="price">Starting Rs. 30,000</div>
+                            <div class="timeline">Timeline: 3-4 months</div>
+                            <ul>
+                                <li>Native iOS Development</li>
+                                <li>Human Interface Guidelines</li>
+                                <li>App Store Submission</li>
+                                <li>Core Data Integration</li>
+                                <li>Push Notifications</li>
+                                <li>In-app Purchases</li>
+                                <li>CloudKit Integration</li>
+                                <li>iOS-specific Features</li>
+                            </ul>
+                            <button class="btn btn--primary" data-service="iOS App Development">Choose Plan</button>
+                        </div>
+                        <div class="package-card featured">
+                            <div class="badge">Best Value</div>
+                            <h4>Cross-Platform Apps</h4>
+                            <div class="price">Starting Rs. 35,000</div>
+                            <div class="timeline">Timeline: 4-5 months</div>
+                            <ul>
+                                <li>Flutter/React Native Development</li>
+                                <li>Single Codebase for Both Platforms</li>
+                                <li>Native Performance</li>
+                                <li>Platform-specific UI</li>
+                                <li>Hardware Access</li>
+                                <li>Third-party Plugins</li>
+                                <li>Code Reusability</li>
+                                <li>Cost-effective Solution</li>
+                            </ul>
+                            <button class="btn btn--primary" data-service="Cross-Platform Apps">Choose Plan</button>
+                        </div>
+                       
+                    </div>
+                </div>
+
+                <div class="tab-content" id="online-presence">
+                    <div class="service-header">
+                        <h3>Online Presence Management</h3>
+                        <p>Complete brand management and digital presence optimization</p>
+                        <div class="tech-showcase">
+                            <span class="tech-pill">Social Media</span>
+                            <span class="tech-pill">Content Strategy</span>
+                            <span class="tech-pill">Brand Development</span>
+                            <span class="tech-pill">Reputation Management</span>
+                        </div>
+                    </div>
+                    <div class="packages-grid">
+                        <div class="package-card">
+                            <h4>Social Media Management</h4>
+                            <div class="price">Rs. 8,000/month</div>
+                            <div class="timeline">Timeline: Ongoing</div>
+                            <ul>
+                                <li>Content Creation & Scheduling</li>
+                                <li>Daily Posting Across Platforms</li>
+                                <li>Community Management</li>
+                                <li>Hashtag Strategy Development</li>
+                                <li>Engagement Tracking</li>
+                                <li>Competitor Analysis</li>
+                                <li>Monthly Performance Reports</li>
+                                <li>Brand Voice Development</li>
+                            </ul>
+                            <button class="btn btn--primary" data-service="Social Media Management">Choose Plan</button>
+                        </div>
+                        <div class="package-card featured">
+                            <div class="badge">Popular</div>
+                            <h4>Content Creation & Strategy</h4>
+                            <div class="price">Rs. 12,000/month</div>
+                            <div class="timeline">Timeline: Ongoing</div>
+                            <ul>
+                                <li>Content Planning & Calendar</li>
+                                <li>Blog Writing & Articles</li>
+                                <li>Video Script Writing</li>
+                                <li>Infographic Design</li>
+                                <li>SEO-optimized Content</li>
+                                <li>Social Media Content</li>
+                                <li>Email Newsletter Content</li>
+                                <li>Content Performance Analysis</li>
+                            </ul>
+                            <button class="btn btn--primary" data-service="Content Creation & Strategy">Choose Plan</button>
+                        </div>
+                        <div class="package-card">
+                            <h4>Online Reputation Management</h4>
+                            <div class="price">Rs. 15,000/month</div>
+                            <div class="timeline">Timeline: Ongoing</div>
+                            <ul>
+                                <li>Review Monitoring & Management</li>
+                                <li>Crisis Management Strategy</li>
+                                <li>Positive Content Creation</li>
+                                <li>Review Response Management</li>
+                                <li>Brand Mention Tracking</li>
+                                <li>Reputation Recovery Plans</li>
+                                <li>Competitor Monitoring</li>
+                                <li>Monthly Reputation Reports</li>
+                            </ul>
+                            <button class="btn btn--primary" data-service="Online Reputation Management">Choose Plan</button>
+                        </div>
+                       
+                    </div>
+                </div>
+
+                <div class="tab-content" id="digital-marketing">
+                    <div class="service-header">
+                        <h3>Digital Marketing Services</h3>
+                        <p>Comprehensive digital marketing solutions for business growth</p>
+                        <div class="tech-showcase">
+                            <span class="tech-pill">SEO</span>
+                            <span class="tech-pill">Google Ads</span>
+                            <span class="tech-pill">Social Media Marketing</span>
+                            <span class="tech-pill">Email Marketing</span>
+                        </div>
+                    </div>
+                    <div class="packages-grid">
+                        <div class="package-card">
+                            <h4>Basic SEO Plan</h4>
+                            <div class="price">Rs. 15,499/month</div>
+                            <div class="timeline">Timeline: 3-6 months for results</div>
+                            <ul>
+                                <li>5 Target Keywords</li>
+                                <li>On-page SEO Optimization</li>
+                                <li>Technical SEO Audit</li>
+                                <li>Google Analytics Setup</li>
+                                <li>Monthly Progress Reports</li>
+                                <li>Local SEO Optimization</li>
+                                <li>Content Optimization</li>
+                                <li>Basic Link Building</li>
+                            </ul>
+                            <button class="btn btn--primary" data-service="Basic SEO Plan">Choose Plan</button>
+                        </div>
+                        <div class="package-card featured">
+                            <div class="badge">Popular</div>
+                            <h4>Standard SEO Plan</h4>
+                            <div class="price">Rs. 23,499/month</div>
+                            <div class="timeline">Timeline: 3-6 months for results</div>
+                            <ul>
+                                <li>10 Target Keywords</li>
+                                <li>Advanced SEO Strategies</li>
+                                <li>Content Creation (2 blogs/month)</li>
+                                <li>Social Media SEO</li>
+                                <li>Competitor Analysis</li>
+                                <li>Google My Business Optimization</li>
+                                <li>Review Management</li>
+                                <li>Conversion Tracking Setup</li>
+                            </ul>
+                            <button class="btn btn--primary" data-service="Standard SEO Plan">Choose Plan</button>
+                        </div>
+                        <div class="package-card">
+                            <h4>Professional SEO Plan</h4>
+                            <div class="price">Rs. 33,499/month</div>
+                            <div class="timeline">Timeline: 2-4 months for results</div>
+                            <ul>
+                                <li>15+ Target Keywords</li>
+                                <li>Premium SEO Strategies</li>
+                                <li>Content Marketing (4 blogs/month)</li>
+                                <li>PPC Campaign Management</li>
+                                <li>Advanced Analytics & Reporting</li>
+                                <li>E-commerce SEO</li>
+                                <li>Multi-location SEO</li>
+                                <li>Priority Support & Consultation</li>
+                            </ul>
+                            <button class="btn btn--primary" data-service="Professional SEO Plan">Choose Plan</button>
+                        </div>
+                       
+                    </div>
+                </div>
+                <div class="tab-content" id="school-management">
+                    <div class="service-header">
+                        <h3>School Management System</h3>
+                        <p>Comprehensive digital solutions for educational institutions</p>
+                        <div class="tech-showcase">
+                            <span class="tech-pill">Student Management</span>
+                            <span class="tech-pill">Fee Management</span>
+                            <span class="tech-pill">Parent Portal</span>
+                            <span class="tech-pill">Mobile App</span>
+                        </div>
+                    </div>
+                    <div class="packages-grid">
+                        <div class="package-card">
+                            <h4>Basic School System</h4>
+                            <div class="price">Rs. 50,000</div>
+                            <div class="timeline">Timeline: 2-3 months</div>
+                            <ul>
+                                <li>Student Information Management</li>
+                                <li>Basic Fee Management</li>
+                                <li>Attendance Tracking</li>
+                                <li>Simple Report Generation</li>
+                                <li>Parent Portal Access</li>
+                                <li>Teacher Dashboard</li>
+                                <li>Class Management</li>
+                                <li>Academic Year Setup</li>
+                            </ul>
+                            <button class="btn btn--primary" data-service="Basic School System">Choose Plan</button>
+                        </div>
+                        <div class="package-card featured">
+                            <div class="badge">Recommended</div>
+                            <h4>Advanced School System</h4>
+                            <div class="price">Rs. 1,00,000</div>
+                            <div class="timeline">Timeline: 3-4 months</div>
+                            <ul>
+                                <li>Complete Student Lifecycle Management</li>
+                                <li>Advanced Fee Management</li>
+                                <li>Examination & Grading Module</li>
+                                <li>Report Card Generation</li>
+                                <li>Library Management System</li>
+                                <li>Transport Management</li>
+                                <li>HR & Staff Management</li>
+                                <li>Mobile App for Parents & Students</li>
+                            </ul>
+                            <button class="btn btn--primary" data-service="Advanced School System">Choose Plan</button>
+                        </div>
+                        <div class="package-card">
+                            <h4>Enterprise Solution</h4>
+                            <div class="price">Rs. 2,00,000+</div>
+                            <div class="timeline">Timeline: 4-6 months</div>
+                            <ul>
+                                <li>Multi-branch Support</li>
+                                <li>Advanced Analytics & Insights</li>
+                                <li>Custom Module Development</li>
+                                <li>Third-party System Integration</li>
+                                <li>Cloud Infrastructure</li>
+                                <li>24/7 Technical Support</li>
+                                <li>Staff Training & Onboarding</li>
+                                <li>Custom Reporting Dashboard</li>
+                            </ul>
+                            <button class="btn btn--primary" data-service="Enterprise Solution">Get Quote</button>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Famous Personalities Section -->
+    <section class="personalities">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Endorsed by Industry Leaders</h2>
+                <p class="section-subtitle">Wisdom from the world's tech visionaries inspiring our mission</p>
+            </div>
+            <div class="personalities-slider">
+                <div class="personalities-track">
+                    <div class="personality-card">
+                        <div class="personality-avatar">SP</div>
+                        <div class="personality-content">
+                            <blockquote>"Technology is best when it brings people together."</blockquote>
+                            <cite>
+                                <strong>Sundar Pichai</strong>
+                                <span>CEO, Google</span>
+                            </cite>
+                        </div>
+                    </div>
+                    <div class="personality-card">
+                        <div class="personality-avatar">TC</div>
+                        <div class="personality-content">
+                            <blockquote>"Technology alone is not enough. It's technology married with the humanities that yields results that make our hearts sing."</blockquote>
+                            <cite>
+                                <strong>Tim Cook</strong>
+                                <span>CEO, Apple</span>
+                            </cite>
+                        </div>
+                    </div>
+                    <div class="personality-card">
+                        <div class="personality-avatar">SN</div>
+                        <div class="personality-content">
+                            <blockquote>"Our mission is to empower every person and every organization on the planet to achieve more."</blockquote>
+                            <cite>
+                                <strong>Satya Nadella</strong>
+                                <span>CEO, Microsoft</span>
+                            </cite>
+                        </div>
+                    </div>
+                    <div class="personality-card">
+                        <div class="personality-avatar">EM</div>
+                        <div class="personality-content">
+                            <blockquote>"The first step is to establish that something is possible; then probability will occur."</blockquote>
+                            <cite>
+                                <strong>Elon Musk</strong>
+                                <span>CEO, Tesla & SpaceX</span>
+                            </cite>
+                        </div>
+                    </div>
+                    <div class="personality-card">
+                        <div class="personality-avatar">JB</div>
+                        <div class="personality-content">
+                            <blockquote>"If you double the number of experiments you do per year, you're going to double your inventiveness."</blockquote>
+                            <cite>
+                                <strong>Jeff Bezos</strong>
+                                <span>Founder, Amazon</span>
+                            </cite>
+                        </div>
+                    </div>
+                    <div class="personality-card">
+                        <div class="personality-avatar">MB</div>
+                        <div class="personality-content">
+                            <blockquote>"The business of business is improving the state of the world."</blockquote>
+                            <cite>
+                                <strong>Marc Benioff</strong>
+                                <span>CEO, Salesforce</span>
+                            </cite>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-controls">
+                    <button class="prev-btn">‹</button>
+                    <button class="next-btn">›</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Client Testimonials Slider -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">What Our Clients Say</h2>
+                <p class="section-subtitle">Real success stories from our valued clients across different industries</p>
+            </div>
+            <div class="testimonials-slider">
+                <div class="testimonials-track">
+                    <div class="testimonial-card">
+                        <div class="testimonial-avatar">RS</div>
+                        <div class="testimonial-content">
+                            <div class="stars">★★★★★</div>
+                            <p>"I was very impressed with the website developed by Fedigma Forge. They delivered exactly what was asked from this company and I'll definitely go with them for my ecommerce store development which I am going to start soon."</p>
+                            <cite>
+                                <strong>Raghav Sharma</strong>
+                                <span>Indore - E-commerce Website Development</span>
+                            </cite>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-avatar">MS</div>
+                        <div class="testimonial-content">
+                            <div class="stars">★★★★★</div>
+                            <p>"Team is highly cooperative and soft spoken. They developed my website with a great look and feel. The admin panel is very user-friendly and managing content is now so easy."</p>
+                            <cite>
+                                <strong>Mohit Sachdeva</strong>
+                                <span>Garg Trading Company, Delhi - Dynamic Website</span>
+                            </cite>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-avatar">PS</div>
+                        <div class="testimonial-content">
+                            <div class="stars">★★★★★</div>
+                            <p>"Their school management system has revolutionized our administrative processes. The parent portal and mobile app have significantly improved communication. Highly recommended for educational institutions."</p>
+                            <cite>
+                                <strong>Dr. Priya Sharma</strong>
+                                <span>Bright Future School, Mumbai - School Management System</span>
+                            </cite>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-avatar">AK</div>
+                        <div class="testimonial-content">
+                            <div class="stars">★★★★★</div>
+                            <p>"Excellent mobile app development service. The team delivered a high-quality Flutter app on time and within budget. The app performance is outstanding and user feedback has been fantastic."</p>
+                            <cite>
+                                <strong>Amit Kumar</strong>
+                                <span>TechStart Solutions, Bangalore - Mobile App Development</span>
+                            </cite>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-avatar">SJ</div>
+                        <div class="testimonial-content">
+                            <div class="stars">★★★★★</div>
+                            <p>"Our website traffic increased by 300% within 6 months of their SEO services. The team's expertise in digital marketing is exceptional and they deliver measurable results."</p>
+                            <cite>
+                                <strong>Sarah Johnson</strong>
+                                <span>Digital Marketing Agency, Pune - SEO & Digital Marketing</span>
+                            </cite>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-controls">
+                    <button class="prev-btn">‹</button>
+                    <button class="next-btn">›</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Enhanced Blogs Section -->
+    <section id="blogs" class="blogs">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Latest from Our Blog</h2>
+                <p class="section-subtitle">Stay updated with industry insights, trends, and expert tips</p>
+            </div>
+            
+            <div class="blog-filters">
+                <button class="filter-btn active" data-category="all">All Posts</button>
+                <button class="filter-btn" data-category="Web Development">Web Development</button>
+                <button class="filter-btn" data-category="App Development">App Development</button>
+                <button class="filter-btn" data-category="Digital Marketing">Digital Marketing</button>
+                <button class="filter-btn" data-category="School Management">School Management</button>
+                <button class="filter-btn" data-category="Online Presence Management">Online Presence</button>
+            </div>
+            
+            <div class="blog-search">
+                <input type="text" id="blogSearch" placeholder="Search articles..." class="search-input">
+                <button class="search-btn">🔍</button>
+            </div>
+            
+            <div class="blogs-grid">
+                <div class="blog-card" data-category="Web Development">
+                    <div class="blog-category">Web Development</div>
+                    <h3>10 Web Development Trends to Watch in 2025</h3>
+                    <p>Discover the latest trends shaping the future of web development, from AI integration to progressive web apps and modern frameworks.</p>
+                    <div class="blog-meta">
+                        <div class="blog-info">
+                            <span class="blog-date">August 20, 2025</span>
+                            <span class="blog-time">8 min read</span>
+                        </div>
+                        <button class="read-more" data-post="web-development-trends-2025">Read More</button>
+                    </div>
+                </div>
+                
+                <div class="blog-card" data-category="Digital Marketing">
+                    <div class="blog-category">Digital Marketing</div>
+                    <h3>Digital Marketing Strategies for Small Businesses</h3>
+                    <p>Learn effective digital marketing strategies that can help small businesses compete with larger enterprises and grow their online presence.</p>
+                    <div class="blog-meta">
+                        <div class="blog-info">
+                            <span class="blog-date">August 18, 2025</span>
+                            <span class="blog-time">10 min read</span>
+                        </div>
+                        <button class="read-more" data-post="digital-marketing-small-business">Read More</button>
+                    </div>
+                </div>
+                
+                <div class="blog-card" data-category="App Development">
+                    <div class="blog-category">App Development</div>
+                    <h3>Mobile App Development: Native vs Cross-Platform</h3>
+                    <p>A comprehensive comparison of native and cross-platform app development approaches for your business needs and budget considerations.</p>
+                    <div class="blog-meta">
+                        <div class="blog-info">
+                            <span class="blog-date">August 15, 2025</span>
+                            <span class="blog-time">12 min read</span>
+                        </div>
+                        <button class="read-more" data-post="native-vs-cross-platform-apps">Read More</button>
+                    </div>
+                </div>
+                
+                <div class="blog-card" data-category="School Management">
+                    <div class="blog-category">School Management</div>
+                    <h3>How School Management Systems Improve Education</h3>
+                    <p>Explore how digital school management systems are transforming educational institutions worldwide and improving learning outcomes.</p>
+                    <div class="blog-meta">
+                        <div class="blog-info">
+                            <span class="blog-date">August 12, 2025</span>
+                            <span class="blog-time">15 min read</span>
+                        </div>
+                        <button class="read-more" data-post="school-management-systems-benefits">Read More</button>
+                    </div>
+                </div>
+                
+                <div class="blog-card" data-category="Online Presence Management">
+                    <div class="blog-category">Online Presence Management</div>
+                    <h3>Building Your Online Presence: A Complete Guide</h3>
+                    <p>Complete guide to building and maintaining a strong online presence across all digital platforms and social media channels.</p>
+                    <div class="blog-meta">
+                        <div class="blog-info">
+                            <span class="blog-date">August 10, 2025</span>
+                            <span class="blog-time">12 min read</span>
+                        </div>
+                        <button class="read-more" data-post="building-online-presence-guide">Read More</button>
+                    </div>
+                </div>
+                
+                <div class="blog-card" data-category="Digital Marketing">
+                    <div class="blog-category">Digital Marketing</div>
+                    <h3>SEO Best Practices for 2025: Complete Guide</h3>
+                    <p>Master the latest SEO techniques and strategies to improve your website's search engine rankings and drive organic traffic.</p>
+                    <div class="blog-meta">
+                        <div class="blog-info">
+                            <span class="blog-date">August 8, 2025</span>
+                            <span class="blog-time">14 min read</span>
+                        </div>
+                        <button class="read-more" data-post="seo-best-practices-2025">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Workflow -->
+    <section class="process">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Proven 4-Step Process</h2>
+                <p class="section-subtitle">How we consistently deliver exceptional results for our clients</p>
+            </div>
+            <div class="process-steps">
+                <div class="process-step">
+                    <div class="step-icon">🔍</div>
+                    <div class="step-number">01</div>
+                    <h3>Discovery & Planning</h3>
+                    <p>We analyze your business requirements and create a comprehensive project roadmap with clear milestones and deliverables</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-icon">⚒️</div>
+                    <div class="step-number">02</div>
+                    <h3>Design & Development</h3>
+                    <p>Our expert team designs and develops your solution using the latest technologies and industry best practices</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-icon">🚀</div>
+                    <div class="step-number">03</div>
+                    <h3>Testing & Launch</h3>
+                    <p>Comprehensive testing ensures everything works perfectly before launching your project to the world</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-icon">🛠️</div>
+                    <div class="step-number">04</div>
+                    <h3>Support & Maintenance</h3>
+                    <p>Ongoing support, updates, and maintenance to keep your solution running smoothly and efficiently</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technology Stack Showcase -->
+    <section class="technologies">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Technologies We Master</h2>
+                <p class="section-subtitle">Cutting-edge tools and frameworks for modern digital solutions</p>
+            </div>
+            <div class="tech-categories">
+                <div class="tech-category">
+                    <h3>🌐 Web Development</h3>
+                    <div class="tech-tags">
+                        <span class="tech-tag">HTML5</span>
+                        <span class="tech-tag">CSS3</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">PHP</span>
+                        <span class="tech-tag">WordPress</span>
+                        <span class="tech-tag">Laravel</span>
+                        <span class="tech-tag">MySQL</span>
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">Vue.js</span>
+                    </div>
+                </div>
+                <div class="tech-category">
+                    <h3>📱 Mobile Development</h3>
+                    <div class="tech-tags">
+                        <span class="tech-tag">Flutter</span>
+                        <span class="tech-tag">React Native</span>
+                        <span class="tech-tag">Swift</span>
+                        <span class="tech-tag">Kotlin</span>
+                        <span class="tech-tag">Firebase</span>
+                        <span class="tech-tag">SQLite</span>
+                    </div>
+                </div>
+                <div class="tech-category">
+                    <h3>📈 Digital Marketing</h3>
+                    <div class="tech-tags">
+                        <span class="tech-tag">Google Analytics</span>
+                        <span class="tech-tag">SEMrush</span>
+                        <span class="tech-tag">Mailchimp</span>
+                        <span class="tech-tag">Google Ads</span>
+                        <span class="tech-tag">Facebook Ads</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Let's Build Your Digital Success</h2>
+                <p class="section-subtitle">Ready to transform your business? Get in touch with our expert team</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">📞</div>
+                        <div class="contact-content">
+                            <h4>Phone</h4>
+                            <p><a href="tel:+917984504286">+917984504286</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">✉️</div>
+                        <div class="contact-content">
+                            <h4>Email</h4>
+                            <p><a href="mailto:info@fnfed.com">info@fnfed.com</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div class="contact-content">
+                            <h4>Location</h4>
+                            <p>New Delhi, India</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">🌐</div>
+                        <div class="contact-content">
+                            <h4>Website</h4>
+                            <p><a href="https://www.fnfed.com" target="_blank">www.fnfed.com</a></p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-social">
+                        <h4>Follow Us</h4>
+                        <div class="social-header">
+    <!-- Facebook -->
+    <a href="https://facebook.com/fedigmaforge" target="_blank" class="social-link facebook" title="Facebook">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+        </svg>
+    </a>
+    
+    <!-- Twitter -->
+    <a href="https://twitter.com/fedigmaforge" target="_blank" class="social-link twitter" title="Twitter">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
+        </svg>
+    </a>
+    
+    <!-- LinkedIn -->
+    <a href="https://linkedin.com/company/fedigma-forge-info" target="_blank" class="social-link linkedin" title="LinkedIn">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+        </svg>
+    </a>
+    
+    <!-- Instagram -->
+    <a href="https://instagram.com/fedigmaforge" target="_blank" class="social-link instagram" title="Instagram">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+        </svg>
+    </a>
+    
+    <!-- YouTube -->
+    <a href="https://youtube.com/fedigmaforge" target="_blank" class="social-link youtube" title="YouTube">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+        </svg>
+    </a>
+    
+    <!-- WhatsApp -->
+    <a href="https://wa.me/917984504286" target="_blank" class="social-link whatsapp" title="WhatsApp">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.890-5.335 11.893-11.893A11.821 11.821 0 0020.89 3.488"/>
+        </svg>
+    </a>
+</div>
+
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name *" required class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email *" required class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone" placeholder="Your Phone" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <select id="service" name="service" class="form-control">
+                                <option value="">Select Service</option>
+                                <option value="web-development">Web Development</option>
+                                <option value="app-development">App Development</option>
+                                <option value="digital-marketing">Digital Marketing</option>
+                                <option value="online-presence">Online Presence Management</option>
+                                <option value="school-management">School Management System</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message *" required class="form-control" rows="5"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn--primary btn--full-width">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="about" class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Fedigma Forge</h3>
+                    <p><strong>Transform Your Digital Future</strong></p>
+                    <p>Established in 2024, we have been delivering exceptional digital solutions for over 3+ years. We are your trusted partner in digital transformation.</p>
+                   <div class="social-header">
+    <!-- Facebook -->
+    <a href="https://facebook.com/fedigmaforge" target="_blank" class="social-link facebook" title="Facebook">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+        </svg>
+    </a>
+    
+    <!-- Twitter -->
+    <a href="https://twitter.com/fedigmaforge" target="_blank" class="social-link twitter" title="Twitter">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
+        </svg>
+    </a>
+    
+    <!-- LinkedIn -->
+    <a href="https://linkedin.com/company/fedigma-forge-info" target="_blank" class="social-link linkedin" title="LinkedIn">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+        </svg>
+    </a>
+    
+    <!-- Instagram -->
+    <a href="https://instagram.com/fedigmaforge" target="_blank" class="social-link instagram" title="Instagram">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+        </svg>
+    </a>
+    
+    <!-- YouTube -->
+    <a href="https://youtube.com/fedigmaforge" target="_blank" class="social-link youtube" title="YouTube">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+        </svg>
+    </a>
+    
+    <!-- WhatsApp -->
+    <a href="https://wa.me/917984504286" target="_blank" class="social-link whatsapp" title="WhatsApp">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.890-5.335 11.893-11.893A11.821 11.821 0 0020.89 3.488"/>
+        </svg>
+    </a>
+</div>
+
+                </div>
+                <div class="footer-section">
+                    <h4>Our Services</h4>
+                    <ul>
+                        <li><a href="#services">Web Development</a></li>
+                        <li><a href="#services">App Development</a></li>
+                        <li><a href="#services">Digital Marketing</a></li>
+                        <li><a href="#services">Online Presence Management</a></li>
+                        <li><a href="#services">School Management System</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#blogs">Blogs</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#about">About Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Information</h4>
+                    <p>📞 <a href="tel:+917984504286">+917984504286,+919599300796</a></p>
+                    <p>✉️ <a href="mailto:info@fnfed.com">info@fnfed.com</a></p>
+                    <p>📍 D 60/61, Sewak Park, Dwarka Mor,New Delhi-110059, India</p>
+                    <p>🌐 <a href="https://www.fnfed.com" target="_blank">www.fnfed.com</a></p>
+                    <p><strong>Experience:</strong> 3+ Years (Since 2024)</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Fedigma Forge Pvt. Ltd. All rights reserved. | Established 2024 | Innovating Education, Empowering Growth Since 3+ Years</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- AI Assistant Chat Widget -->
+    <div id="aiAssistant" class="ai-assistant">
+        <div class="ai-toggle" id="aiToggle">
+            <div class="ai-avatar">🤖</div>
+            <div class="ai-pulse"></div>
+        </div>
+        
+        <div class="ai-chat" id="aiChat">
+            <div class="ai-header">
+                <div class="ai-info">
+                    <div class="ai-avatar-large">🤖</div>
+                    <div class="ai-details">
+                        <h4>Alex - AI Assistant</h4>
+                        <p>AI Assistant for eXcellence</p>
+                    </div>
+                </div>
+                <button class="ai-minimize" id="aiMinimize">✕</button>
+            </div>
+            
+            <div class="ai-messages" id="aiMessages">
+                <div class="ai-message ai-message--bot">
+                    <div class="ai-message-avatar">🤖</div>
+                    <div class="ai-message-content">
+                        <p>Hello! I'm Alex, your AI assistant. I can help you with:</p>
+                        <ul>
+                            <li>Service recommendations & pricing</li>
+                            <li>Technology research & comparisons</li>
+                            <li>Business insights & ROI calculations</li>
+                            <li>Project timelines & requirements</li>
+                        </ul>
+                        <p>How can I assist you today?</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="ai-quick-actions">
+                <button class="quick-btn" data-action="pricing">💰 Pricing</button>
+                <button class="quick-btn" data-action="services">🛠️ Services</button>
+                <button class="quick-btn" data-action="contact">📞 Contact</button>
+                <button class="quick-btn" data-action="portfolio">💼 Portfolio</button>
+            </div>
+            
+            <div class="ai-input">
+                <input type="text" id="aiInput" placeholder="Type your message..." class="ai-input-field">
+                <button id="aiSend" class="ai-send-btn">➤</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
